@@ -21,35 +21,29 @@ Serving the HTML pages.
 Testing the webserver.
 
 ## PROGRAM:
-~~~
-from http.server import HTTPServer,BaseHTTPRequestHandler
-content="""
+```
 <html>
-<head>
-<title>Django</title>
-</head>
-<body>
-<h1>Django</h1>
-<p>This is Web Application Framework written in python</p>
-</body>
+    <head>
+        <title>
+            simplewebserver
+        </title>
+    </head>
+    <body>
+        <h1>Top 5 Revenue Company</h1>
+        <ul>
+            <ol>AMAZON</ol>
+            <ol>TCS</ol>
+            <ol>INFOSYS</ol>
+            <ol>GOOGLE</ol>
+            <ol>APPLE</ol>
+        </ul>
+    </body>
 </html>
-""" 
-
-class myhandler(BaseHTTPRequestHandler):
-     def do_GET(self):
-         print("request received")
-         self.send_response(200)
-         self.send_header('content-type','text/html; charset=utf-8')
-         self.end_headers()
-         self.wfile.write(content.encode())
-server_address = ('',8001)
-httpd = HTTPServer(server_address,myhandler)
-print("my webserver is running....")
-httpd.serve_forever()
-~~~
+```
 
 ## OUTPUT:
-![image](https://github.com/Selvakumar525/simplewebserver/assets/120643262/dfcc9e7d-f55d-4ad2-a31a-ae66faf6429b)
+![image](https://github.com/Selvakumar525/simplewebserver/assets/120643262/d95d704a-9f70-4636-bd9a-02147c2badd1)
+
 
 
 ## RESULT:
