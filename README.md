@@ -42,6 +42,8 @@ Testing the webserver.
 ```
 
 ## OUTPUT:
+![image](https://github.com/Selvakumar525/simplewebserver/assets/120643262/93ed64ea-3261-431c-9e8f-62b4fddd3488)
+
 ![image](https://github.com/Selvakumar525/simplewebserver/assets/120643262/d95d704a-9f70-4636-bd9a-02147c2badd1)
 
 
